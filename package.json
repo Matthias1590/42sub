@@ -1,0 +1,85 @@
+{
+  "name": "42sub",
+  "displayName": "42 Subject PDFs",
+  "description": "View 42 subjects in your Visual Studio Code instance",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "publisher": "matthias",
+  "activationEvents": [
+    "onCommand:42sub.openPdf"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "42sub.openPdf",
+        "title": "Open Subject PDF",
+        "arguments": [
+          {
+            "name": "subject",
+            "description": "The subject to show the PDF for",
+            "type": "string",
+            "enum": [
+              "Libft",
+              "ft_printf",
+              "Born2beroot",
+              "get_next_line",
+              "minitalk",
+              "pipex",
+              "push_swap",
+              "so_long",
+              "FdF",
+              "fract-ol",
+              "minishell",
+              "Philosophers",
+              "NetPractice",
+              "cub3d",
+              "miniRT",
+              "CPP Module 00",
+              "CPP Module 01",
+              "CPP Module 02",
+              "CPP Module 03",
+              "CPP Module 04",
+              "Inception",
+              "ft_irc",
+              "webserv",
+              "CPP Module 05",
+              "CPP Module 06",
+              "CPP Module 07",
+              "CPP Module 08",
+              "CPP Module 09",
+              "ft_transcendence"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.105.0",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^5.4.296"
+  }
+}
