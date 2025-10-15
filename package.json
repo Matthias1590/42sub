@@ -3,6 +3,9 @@
   "displayName": "42 Subject PDFs",
   "description": "View 42 subjects in your Visual Studio Code instance",
   "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Matthias1590/42sub"
+  },
   "engines": {
     "vscode": "^1.105.0"
   },
