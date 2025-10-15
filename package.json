@@ -7,7 +7,7 @@
     "url": "https://github.com/Matthias1590/42sub"
   },
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.102.0"
   },
   "categories": [
     "Other"
