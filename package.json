@@ -2,7 +2,7 @@
   "name": "42sub",
   "displayName": "42 Subject PDFs",
   "description": "View 42 subjects in your Visual Studio Code instance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/Matthias1590/42sub"
   },
@@ -74,7 +74,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
-    "@types/vscode": "^1.105.0",
+    "@types/vscode": "^1.102.0",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
     "@typescript-eslint/parser": "^8.45.0",
     "@vscode/test-cli": "^0.0.11",
