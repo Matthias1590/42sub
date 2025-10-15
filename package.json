@@ -4,7 +4,7 @@
   "description": "View 42 subjects in your Visual Studio Code instance",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.102.0"
   },
   "categories": [
     "Other"
